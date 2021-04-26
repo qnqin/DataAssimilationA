@@ -1,0 +1,29 @@
+---
+title: "RPrimer"
+author: "Qianning Qin"
+date: "4/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Before start
+You will need to introduce yourself to git.
+  + From RStudio click Tools > Shell
+  + To set your name, enter the following & hit Return: 
+```
+git config -global user.name 'your name'
+```
+  + To set your email, enter the following & hit Return: 
+```
+git config -global user.email 'your.email@gmail.com'
+```
+  + You can now close this Shell window
+  
+## Push as an owner
+1. From the Git tab, click the box next to the file you just created. This is equivalent to _git add_
+2. Click Commit, enter a log message, and click Commit. This is equivalent to _git commit_
+3. To push the change up to Github click on the green up arrow. This is equivalent to _git push_
